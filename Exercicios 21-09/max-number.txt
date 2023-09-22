@@ -1,0 +1,9 @@
+#Crie uma função que retorne o maior número em uma lista.
+lista = []
+
+for x in range (10):
+  number = int(input("Digite um número: "))
+  lista.append(number)
+  maior = max(lista)
+
+print("O maior número da lista é: ", maior)

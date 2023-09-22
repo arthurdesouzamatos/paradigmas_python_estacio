@@ -1,0 +1,8 @@
+#Crie uma função que retorne uma lista de números pares de 1 a n.
+lista = []
+n = int(input("Digite o valor de n: "))
+for x in range (n):
+  x = int(input("Digite um número: "))
+  if x % 2 == 0:
+    lista.append(x)
+    print(lista)

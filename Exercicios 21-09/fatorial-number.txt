@@ -1,0 +1,5 @@
+# Crie uma função que calcule o fatorial de um número.
+import math
+teste = int (input ("digite um número: "))
+
+print ("o fatorial do número digitado é: ", math.factorial(teste))
